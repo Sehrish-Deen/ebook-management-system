@@ -50,14 +50,13 @@ This is a web-based Ebook Management System developed using PHP and MySQL. It al
 ## 👩‍🎓 User Features
 
 - User Registration & Login  
-- Search and View Books  
+-  View Books  
 - Add Books to Cart  
 - Place Orders  
 - Participate in Competitions  
 - Submit Essays / Documents  
 - View Prizes and Competition Results  
 - Download Paid PDFs  
-- Track Orders by Status
 
 ###  User Dashboard  
 ![User Dashboard](/pic.png/userdashboard.PNG)
