@@ -1,10 +1,10 @@
-# 📚 Ebook Management System (PHP & MySQL Project)
+#  Ebook Management System (PHP & MySQL Project)
 
 This is a web-based Ebook Management System developed using PHP and MySQL. It allows admins to manage books, competitions, and orders, while users can register, place orders, and participate in competitions.
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - PHP  
 - MySQL  
@@ -14,15 +14,21 @@ This is a web-based Ebook Management System developed using PHP and MySQL. It al
 
 ---
 
-## 👨‍💼 Admin Features
+## Front Page
+
+![Front Page](/pic.png/front.PNG)
+
+![Library View](/pic.png/library.PNG)
+
+
+##  Admin Features
 
 - Add / Manage Books  
-- Add / Manage Competitions  
-- Manage Orders & Confirm Payments  
-- View Submissions and Award Prizes  
-- Upload Documents with Payment Access Control  
+- Add / Manage Competitions
+- Add Author /Add Subscription PLan 
+- Manage Orders & Confirm Payments   
 - View Registered Users  
-- Email Notifications on Orders and Payments
+
 
 ### 📊 Admin Dashboard  
 ![Admin Dashboard](/pic.png/adminDashboard.PNG)
@@ -53,41 +59,30 @@ This is a web-based Ebook Management System developed using PHP and MySQL. It al
 - Download Paid PDFs  
 - Track Orders by Status
 
-### 🖥 User Dashboard  
+###  User Dashboard  
 ![User Dashboard](/pic.png/userdashboard.PNG)
 
-### 🛒 Add to Cart  
+###  Add to Cart  
 ![Add to Cart](/pic.png/addtocart.PNG)
 
-### 🧾 Checkout Page  
+###  Checkout Page  
 ![Checkout](/pic.png/checkoout.PNG)
 
-### 🏆 Competitions  
+###  Competitions  
 ![Competitions](/pic.png/Competitions.PNG)
 
-### 🔐 Sign In  
+###  Sign In  
 ![Sign In](/pic.png/sigin.PNG)
 
----
-
-## 🏠 Front Page
-
-![Front Page](/pic.png/front.PNG)
-
-![Library View](/pic.png/library.PNG)
 
 ---
 
-## 🚀 How to Run the Project?
+##  How to Run the Project
 
-1. **Download or Clone the Repository**  
-   `git clone https://github.com/Sehrish-Deen/EbookManagementSystem.git`
+1. **Download or Clone the Repository** 
+`git clone https://github.com/Sehrish-Deen/EbookManagementSystem.git`
+2. Copy project to `htdocs` (XAMPP)
+3. Start Apache & MySQL
+4. Create a database named `library` in phpMyAdmin
+5. Import `library/library.sql` file
 
-2. **Import the Database**  
-   - Create a database `ebook_db` in phpMyAdmin  
-   - Import the provided SQL file (`ebook_db.sql`)
-
-3. **Update Database Connection**  
-   Open `config.php` and set your DB credentials:
-   ```php
-   $conn = mysqli_connect("localhost", "root", "", "ebook_db");
